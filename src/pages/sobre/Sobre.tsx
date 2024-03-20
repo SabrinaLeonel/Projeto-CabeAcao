@@ -24,55 +24,55 @@ function Sobre() {
         <div className="relative flex justify-center"> {/* Adicionando a classe justify-center para centralizar */}
           <div className="absolute top-6  flex  space-x-2 -mt-4 text-white">
             <b className="text-center">Sabrina Leonel da Silva</b> {/* Centralizando o nome do colaborador */}
-            <LinkedinLogo
+           <a href="https://www.linkedin.com/in/sabrina-leonel"> <LinkedinLogo
               className="text-orange-500"
               size={28}
               weight="bold"
               onMouseEnter={() => setCorLinkedin('#FFFFFF')}
               onMouseLeave={() => setCorLinkedin('#FFA500')}
               style={{ color: corLinkedin }}
-            />
-            <InstagramLogo
+            /></a>
+            <a href="https://www.instagram.com/sabriinaleonel"><InstagramLogo
               className="text-orange-500"
               size={28}
               weight="bold"
               onMouseEnter={() => setCorInstagram('#FFFFFF')}
               onMouseLeave={() => setCorInstagram('#FFA500')}
               style={{ color: corInstagram }}
-            />
-            <GithubLogo
+            /></a>
+            <a href="https://github.com/SabrinaLeonel"><GithubLogo
               className="text-orange-500"
               size={28}
               weight="bold"
               onMouseEnter={() => setCorGithub('#FFFFFF')}
               onMouseLeave={() => setCorGithub('#FFA500')}
               style={{ color: corGithub }}
-            />
+            /></a>
             <b className="text-center">Matheus</b> {/* Centralizando o nome do colaborador */}
-            <LinkedinLogo
+            <a href="http://www.linkedin.com/in/MatheusDavid"><LinkedinLogo
               className="text-orange-500"
               size={28}
               weight="bold"
               onMouseEnter={() => setCorLinkedin2('#FFFFFF')}
               onMouseLeave={() => setCorLinkedin2('#FFA500')}
               style={{ color: corLinkedin2 }}
-            />
-            <InstagramLogo
+            /></a>
+            <a href="https://www.instagram.com/bidinha_?igsh=cXhnajl0ajBzMGlo&utm_source=qr"><InstagramLogo
               className="text-orange-500"
               size={28}
               weight="bold"
               onMouseEnter={() => setCorInstagram2('#FFFFFF')}
               onMouseLeave={() => setCorInstagram2('#FFA500')}
               style={{ color: corInstagram2 }}
-            />
-            <GithubLogo
+            /></a>
+            <a href="https://github.com/Teuz1"><GithubLogo
               className="text-orange-500"
               size={28}
               weight="bold"
               onMouseEnter={() => setCorGithub2('#FFFFFF')}
               onMouseLeave={() => setCorGithub2('#FFA500')}
               style={{ color: corGithub2 }}
-            />
+            /></a>
           </div>
         </div>
       </div>
